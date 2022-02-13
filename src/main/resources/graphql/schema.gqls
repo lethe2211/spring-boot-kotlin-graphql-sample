@@ -1,0 +1,8 @@
+type UserSummary {
+    userId: ID
+    userName: String
+}
+
+type Query {
+    getUserSummary(userId: ID): UserSummary
+}
